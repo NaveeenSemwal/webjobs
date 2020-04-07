@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/WebJobInCore/v16/Server/sqlite3
+/EmployeeApp/obj
+/EmployeeApp/bin
+/EmployeeWebJob/obj
+/EmployeeWebJob/bin
