@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeApp", "EmployeeApp\EmployeeApp.csproj", "{4F5A0641-F590-4825-986A-AA2B2662C342}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeApp", "EmployeeApp\EmployeeApp.csproj", "{4F5A0641-F590-4825-986A-AA2B2662C342}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeWebJob", "EmployeeWebJob\EmployeeWebJob.csproj", "{E799F3E9-9577-4286-9C52-993E2C33B4EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlobAndQueueWebJob", "EmployeeWebJob\BlobAndQueueWebJob.csproj", "{E799F3E9-9577-4286-9C52-993E2C33B4EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
