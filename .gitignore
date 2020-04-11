@@ -11,3 +11,5 @@
 /TimerWebJob/bin/Debug/netcoreapp3.1
 /EmployeeApp/.config
 /EmployeeApp/Properties/PublishProfiles
+/WebApp/obj
+/WebApp/bin/Debug/netcoreapp3.1

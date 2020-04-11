@@ -38,7 +38,7 @@ namespace EmployeeWebJob
                 {
                     b.AddApplicationInsightsWebJobs(o => o.InstrumentationKey = instrumentationKey);
                 }
-            }); ;
+            }); 
             var host = builder.Build();
             using (host)
             {

@@ -1,5 +1,6 @@
-﻿using Microsoft.Extensions.Hosting;
-using System;
+﻿
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
 
 namespace TimerWebJob
 {
@@ -10,10 +11,15 @@ namespace TimerWebJob
             var builder = new HostBuilder();
             builder.ConfigureWebJobs(b =>
             {
-                b.AddTimers();
                 b.AddAzureStorageCoreServices();
+                b.AddAzureStorage();
+                b.AddTimers();
+
+            }).ConfigureLogging((context, b) =>
+            {
+                b.AddConsole();
             });
-             
+
             var host = builder.Build();
             using (host)
             {
