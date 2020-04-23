@@ -9,6 +9,9 @@ using WebApp.Models;
 
 namespace WebApp.Controllers
 {
+    /// <summary>
+    /// How to do custom logging  in Azure with NLog : https://ozaksut.com/custom-logging-with-nlog/
+    /// </summary>
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -21,6 +24,18 @@ namespace WebApp.Controllers
         public IActionResult Index()
         {
             _logger.LogInformation("HomeController.Index method called!!!");
+
+            int a = 5;
+            int b = 0;
+            try
+            {
+                int c = a / b;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError("Error occured in Index. " + ex.ToString());
+            }
+
             return View();
         }
 

@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlobAndQueueWebJob", "Emplo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimerWebJob", "TimerWebJob\TimerWebJob.csproj", "{DF5A86FB-248A-4DAE-BE02-3F7B828DC46E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csproj", "{08C8802E-7EE1-4E12-B4B9-EC0F6A19BD23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApp", "WebApp\WebApp.csproj", "{08C8802E-7EE1-4E12-B4B9-EC0F6A19BD23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionApp1", "FunctionApp1\FunctionApp1.csproj", "{AF72571E-E6C5-4B8B-A0B5-5AAC831A97B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{08C8802E-7EE1-4E12-B4B9-EC0F6A19BD23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08C8802E-7EE1-4E12-B4B9-EC0F6A19BD23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08C8802E-7EE1-4E12-B4B9-EC0F6A19BD23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF72571E-E6C5-4B8B-A0B5-5AAC831A97B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF72571E-E6C5-4B8B-A0B5-5AAC831A97B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF72571E-E6C5-4B8B-A0B5-5AAC831A97B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF72571E-E6C5-4B8B-A0B5-5AAC831A97B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
